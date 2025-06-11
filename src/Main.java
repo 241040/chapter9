@@ -18,11 +18,11 @@ public class Main {
         w.name = "ハイター";
         w.hp = 50;
 
+        System.out.println("現在の武器は" + h1.sword.name);
+
         w.heal(h1);
         w.heal(h2);
         w.heal(h3);
-
-        System.out.println("現在の武器は" + h1.sword.name);
 
         /*Matango m1 = new Matango();
         m1.hp = 50;
